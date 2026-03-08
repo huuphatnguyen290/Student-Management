@@ -60,3 +60,4 @@ CREATE TABLE [Enrollments](
 	FOREIGN KEY ([student_ID]) REFERENCES [Students]([student_ID]),
 	FOREIGN KEY ([section_id]) REFERENCES [Sections]([section_id])
 );
+
